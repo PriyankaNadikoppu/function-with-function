@@ -1,0 +1,16 @@
+x= 100
+def display():
+    x=22
+    print("x= ", x)
+display()
+print("x=", x)
+y= 10
+y= 25
+print(y)
+print("globally", x+y)
+display()
+print("x=", x)
+y=10
+y=25
+print("latest value o y globally:", y)
+print("globally", x+y)
