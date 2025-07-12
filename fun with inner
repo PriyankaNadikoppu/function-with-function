@@ -1,0 +1,8 @@
+def mul_by(n):
+    def inner(x):
+        return x*n
+    return inner
+times_2= mul_by(2)
+times_4= mul_by(4)
+print(times_2(4))
+print(times_4(2))
