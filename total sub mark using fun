@@ -1,0 +1,14 @@
+subject_marks= []
+def add_subject_marks():
+    mark= int(input())
+    subject_marks.append(mark)
+    return mark
+print("subject 1 marks:", add_subject_marks())
+print("subject 2 marks:", add_subject_marks())
+print("subject 3 marks:", add_subject_marks())
+print("allsubject marks", subject_marks)
+total= sum(subject_marks)
+l=len(subject_marks)
+avg= total/1
+print("total marks", total)
+print("average", avg)
