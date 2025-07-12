@@ -1,0 +1,8 @@
+def greet(title):
+    def greet(name):
+        return f"hello, {title}{name}"
+    return greet
+mr_greet= titled("mr.")
+de_greet= titled("dr.")
+print(mr_greet("ganesh"))
+print(dr_greet("sindhu"))
